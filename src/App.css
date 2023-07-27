@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.navHoverStyle a {
+  color: #212121;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navHoverStyle a:hover {
+  color: #2196f3;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.emailStyling a {
+  text-decoration: none;
+  color: #757575;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.emailStyling a:hover {
+  color: #2196f3;
+}
+.toggleMenuStyle {
+  border: none !important;
+}
+.toggleMenuStyle:active {
+  border: none !important;
+  outline: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navEmail {
+  margin-right: 10px;
+}
+.heroSecStyle {
+  padding: 100px 0;
+  color: white;
+  background-color: #2f303a;
+}
+.heroSecStyle h1 {
+  font-weight: 900px;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.featureSecStyle {
+  padding: 60px 0;
+}
+.teamSecStyle {
+  padding: 60px 0;
+  background-color: #f5f4fa;
+  border: none;
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.4);
+}
+.serviceSecStyle {
+  padding-bottom: 60px;
+}
+.teamCardStyle {
+  background-color: white;
+}
+.teamStyle {
+  border: none !important;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.serviceCard {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.footerStyling {
+  background-color: #2f303a;
+  padding: 60px 0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerStyling a {
+  text-decoration: none;
+  color: #ffffff99;
 }
